@@ -1,1 +1,42 @@
-{"acKind":"ImageManifest","acVersion":"0.5.1","name":"joshix/caddy","labels":[{"name":"version","value":"latest"},{"name":"os","value":"linux"}],"app":{"exec":["/bin/caddy"],"user":"22015","group":"0","workingDirectory":"/var/www/html","ports":[{"name":"2015-tcp","protocol":"tcp","port":2015,"count":1,"socketActivated":false}]},"annotations":[{"name":"authors","value":"Josh Wood \u003cj@joshix.com\u003e"},{"name":"created","value":"2015-07-25T23:57:28Z"}]}
+{
+   "acVersion" : "0.5.1",
+   "app" : {
+      "ports" : [
+         {
+            "protocol" : "tcp",
+            "port" : 2015,
+            "name" : "2015-tcp",
+            "socketActivated" : false,
+            "count" : 1
+         }
+      ],
+      "workingDirectory" : "/var/www/html",
+      "group" : "0",
+      "user" : "22015",
+      "exec" : [
+         "/bin/caddy"
+      ]
+   },
+   "labels" : [
+      {
+         "name" : "version",
+         "value" : "latest"
+      },
+      {
+         "value" : "linux",
+         "name" : "os"
+      }
+   ],
+   "acKind" : "ImageManifest",
+   "annotations" : [
+      {
+         "value" : "Josh Wood <j@joshix.com>",
+         "name" : "authors"
+      },
+      {
+         "name" : "created",
+         "value" : "2015-07-25T23:57:28Z"
+      }
+   ],
+   "name" : "joshix/caddy"
+}
