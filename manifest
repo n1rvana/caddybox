@@ -1,5 +1,7 @@
 {
+   "acKind" : "ImageManifest",
    "acVersion" : "0.5.1",
+   "name" : "joshix/caddy",
    "app" : {
       "ports" : [
          {
@@ -20,7 +22,7 @@
    "labels" : [
       {
          "name" : "version",
-         "value" : "latest"
+         "value" : "0.7.3-0.1"
       },
       {
          "value" : "linux",
@@ -31,7 +33,6 @@
          "value" : "amd64"
       }
    ],
-   "acKind" : "ImageManifest",
    "annotations" : [
       {
          "value" : "Josh Wood <j@joshix.com>",
@@ -41,6 +42,5 @@
          "name" : "created",
          "value" : "2015-07-25T23:57:28Z"
       }
-   ],
-   "name" : "joshix/caddy"
+   ]
 }
