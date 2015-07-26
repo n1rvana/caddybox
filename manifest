@@ -25,6 +25,10 @@
       {
          "value" : "linux",
          "name" : "os"
+      },
+      {
+         "name" : "arch",
+         "value" : "amd64"
       }
    ],
    "acKind" : "ImageManifest",
