@@ -1,6 +1,6 @@
 {
    "acKind" : "ImageManifest",
-   "acVersion" : "0.5.1",
+   "acVersion" : "0.6.1",
    "name" : "joshix/caddy",
    "app" : {
       "workingDirectory" : "/var/www/html",
