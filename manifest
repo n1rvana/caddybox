@@ -12,8 +12,8 @@
       "ports" : [
          {
             "protocol" : "tcp",
-            "port" : 80,
-            "name" : "http-tcp",
+            "port" : 2015,
+            "name" : "caddydefault-tcp",
             "socketActivated" : false,
             "count" : 1
          }
