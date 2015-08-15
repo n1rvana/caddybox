@@ -44,7 +44,7 @@
    "labels" : [
       {
          "name" : "version",
-         "value" : "0.7.3-0.2"
+         "value" : "0.7.5-0.2"
       },
       {
          "value" : "linux",
