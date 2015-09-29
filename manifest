@@ -44,7 +44,7 @@
    "labels" : [
       {
          "name" : "version",
-         "value" : "0.7.5-0.2"
+         "value" : "0.7.6-1"
       },
       {
          "value" : "linux",
@@ -62,7 +62,7 @@
       },
       {
          "name" : "created",
-         "value" : "2015-07-25T23:57:28Z"
+         "value" : "2015-09-28T03:57:28Z"
       }
    ]
 }
